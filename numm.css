@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&display=swap');
+
+
+/*----------------------------*/
+
+a {
+        font-size: 93%;}
+
+.left-menu > div.mobile_open_menu > h3{
+margin: auto;
+width: 100%;
+}
+
+div#app {
+margin: auto;
+width: 93%;
+}
+.content {
+    margin-left: 10px;
+    margin-right: -10px;
+    border-radius: 18px;
+    width: 80%;
+    height: auto;
+background: none;}
+.left-menu > div {
+    margin: 0px 0px 0px 0px;}
+
+.bodybg {background-color: rgba(255,255,255, 0);background-image: url(https://i.ibb.co/6DZ6N6F/pagebg.png);background-attachment: fixed;background-position: center right;background-repeat: no-repeat;background-size: auto;}
+
+div.left-menu {border: 3px solid rgba(3, 22, 36, .5);border-radius: 18px;text-align: center;background: none;}
+
+div.post-content.blog_total_counter {display: none }
+
+.post-content {border-radius: 18px;border: 3px solid rgba(3, 22, 36, .5);padding: 1%;
+}
+
+.comment-content {border-radius: 18px;border: 1px solid #031624;}
+
+.post-title, h1 {font-size: 140%;}
+
+nav.navbar {border-radius: 18px;}
+
+.navbar-light .navbar-brand, .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {padding-top: 54px;height: 0;overflow: hidden;background: url(https://438408.selcdn.ru/beonmind/626fae583c2ff_fkj.gif) no-repeat;}
+
+.crumbs {border-radius: 18px;}
+
+.datebg {border-radius: 18px;}
+
+a.navbar-brand {font-family: 'Courier New';font-style: normal;}
+
+.left-menu h3 {font-family: 'Alegreya Sans SC';font-style: normal;padding: 3px;}
+
+h3.left-menu-text {font-size: 17px;letter-spacing: 1px;}
+
+.pc-menu a {text-decoration: none;}
+
+div.blog__last-comments {display: none }    
+
+li { list-style: none; }
+
+li::before {
+    font-size: 12px;
+    margin-right: 2px;
+    color: #1c3235;
+    font-weight: bold;
+    content: "♱" !important;
+}
+
+.pagination-goto {
+    color: #254747;
+}
+
+[href="//beon.fun/users/numm"]::before {
+content: "♛";
+    font-size: 17px;
+    color: #1c3235;
+filter: hue-rotate(45deg);
+}
+[href="//beon.fun/users/unrealmiracle"]::before {
+content: url(https://i1.beon.fun/32/36/3632/91/163591/ddnl931-ca3beb78-0dd8-49e9-a785-446f0001abff.gif);
+filter: hue-rotate(45deg);
+}
+[href="//beon.fun/users/terrifying"]::before {
+content: url(https://i.ibb.co/fH0LwzX/d1e3qup-31d2aa95-c952-400c-becf-c33a069fe8aa.gif);
+filter: hue-rotate(45deg);
+}
+
+
+span.imagewrapper { max-width: 100% !important; }
+
+[onclick="window.scroll({top: 0,behavior: 'smooth'})"] {
+    font-size: 0px;
+    text-shadow: unset !important;
+}
+
+[onclick="window.scroll({top: 0,behavior: 'smooth'})"]:before { 
+   content: "▲";
+    position: fixed;
+  color: #1c323570!important;
+   font-size: 30px !important;
+  right:1%;
+  bottom:3%;
+}
+
+[href="#footer"] {
+ font-size: 0px;
+}
+[href="#footer"]::before {
+    content: "▲";
+    transform: rotate(-180deg);
+    position: fixed;
+    right: 1%;
+    top: 3%;
+    font-size: 30px !important;
+    color: #1c323570!important;
+}
+
+::-webkit-scrollbar {
+  width: 3px;               /* width of vertical scrollbar */
+background-color: #000914
+}
+
+::-webkit-scrollbar-thumb{
+  width: 4px;               /* width of vertical scrollbar */
+background-color: #0a212c
+}
+
+
+@media (max-width: 700px) {
+div#app {
+ width: 100%;
+}
+
+[href="#footer"]::before {
+   font-size: 20px !important;
+}
+[onclick="window.scroll({top: 0,behavior: 'smooth'})"]:before { 
+font-size: 20px !important;
+}
+.menu__btn {right: 55%;}
+
+.content {
+    margin-left: 0px;
+    margin-right: 0px;
+    border-radius: 18px;
+    width: 100%;
+    height: auto;
+background: none;}
+}
+
+.textareabg { 
+margin-right: 1%;
+   background:#000c1070;
+   padding-right:10px;
+   text-align: left;
+   padding-bottom:10px;
+border-radius: 18px;
+}
+
+textarea {
+    background: #00000050;
+    color:#607078;
+    outline: none;
+   border:  2px solid #03162470;
+    background-size: contain;
+}
+ 
+.avatar-select-list {
+    text-align: center;
+    height: 235px;
+    width: 130px;
+    overflow-y: scroll;
+   margin-left: -6px;
+}
+
+.avatar-select-label {
+width: 95px;
+   border: 6px solid #00000040;
+ transition: 0.2s;
+}
+.avatar-select-label-selected {
+width: 100px;
+border: 4px solid #00000040;
+ transition: 0.2s;
+}
+
+#footer, body > div:last-child {
+    display: none;
+}
+
+.post-text a, .post-opt a, .comment-text a, span[data-target="#deleteconfirmmodal"], .postsiblings.row a, .postsiblings.row i, .post-content > div:last-child > a, a[href="/p/photo-library"] {
+    filter: none;
+    background-color: #020a0f;
+    background-image: url(https://i.ibb.co/d050cH8/2.gif);
+    background-size: cover;
+    color: transparent !important;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    transition: .5s;
+}
+
+.menu__box {
+    background: #021018;
+    border-radius: 18px;border: 2px solid #03162470;
+}
+.menu__item {
+
+    text-align: center;
+   font-size: 12px;
+}
